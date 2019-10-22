@@ -102,9 +102,8 @@ It is possible to use the autowiring on any method by adding the `required` PHP 
  
  All controllers methods are automatically autowired. This is a convenience to improved developer experience DX.
  
- 
-[careful]: https://img.icons8.com/office/16/000000/warning-shield.png
-
 **![careful][careful]Public bundles must not use autowiring and define theirs services manually**
 
 **![careful][careful]Autowiring has no performances penalities on production and a small overhead on development**
+
+[careful]: https://img.icons8.com/office/16/000000/warning-shield.png
